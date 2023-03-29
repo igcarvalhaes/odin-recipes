@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: rgb(248,248,246);
+    background: linear-gradient(180deg, rgba(248,248,246,1) 0%, rgba(255,255,255,1) 50%, rgba(225,225,225,1) 100%);
+    background-repeat: no-repeat;
+    font-family: "Garamond", sans-serif;
+    min-height: 100vh;
+}
+
+#titulo-principal {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo-menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px black solid;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu li {
+    margin-left: 60px;
+    list-style-type: none;
+}
+
+.menu li, a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-button {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #27a75d;
+}
+
+.menu-button:hover {
+    background-color: #1d7c45;
+}
+
+.main-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.receitas {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.receitas li {
+    margin-left: 60px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.receitas, li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-showcase {
+    width: 200px;
+    filter: drop-shadow(2px 2px 3px)
+}
+
+.fine-adjustment {
+    height: 130px;
+}
